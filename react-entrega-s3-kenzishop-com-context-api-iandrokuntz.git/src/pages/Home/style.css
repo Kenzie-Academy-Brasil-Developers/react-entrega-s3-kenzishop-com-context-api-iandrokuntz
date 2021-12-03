@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: white;
+}
+body{
+    background-size: cover;
+    background-image: url("https://1.bp.blogspot.com/-ImkuaBR60yY/YOmby7RgCnI/AAAAAAAAiq0/h_rhcKMhzkscvRwZWBFE5J8nQmMnieMCgCLcBGAsYHQ/s1920/GAMER-WALLPAPER-HD.png");
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li{
+    width: 500px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 3px solid greenyellow ;
+    border-radius: 30px;
+}
+
+button{
+
+    background-color: rgb(140, 224, 12);
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    margin: 20px 0 40px 0;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.AddtoCart{
+    width: 100px;
+    height: 30px;
+}
+.RemoveItem{
+    width: 120px;
+    height: 30px;
+}
+.goCart{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    color: rgb(140, 224, 12);
+}
+.goHome{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    color: rgb(140, 224, 12);
+}
+
+h1{
+    color: rgb(140, 224, 12);
+    font-size: 40px;
+    margin: 30px 0 60px 0;
+}
+h4{
+    margin: 15px 0 5px 0;
+}
+.totalPrice{
+    font-size: 25px;
+    margin: 30px 0 60px 0;
+}
+.error{
+    position: relative;
+    left: 0;
+    bottom: 10px;
+    color: red;
+}
